@@ -1,7 +1,7 @@
 
-Array.prototype.forEachs = function (callback, thisArg){
+Array.prototype.forEachs = function (callback, context){
     for(var i=0;i<this.length;i++){
-        callback.call(thisArg,this[i],i,this)
+        callback.call(context,this[i],i,this)
     }
 }
 
