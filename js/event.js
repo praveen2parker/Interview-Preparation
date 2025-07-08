@@ -1,4 +1,7 @@
  
+//  https://www.youtube.com/watch?v=QDA4UANRuGc   for promise
+
+
 console.log("Start");
 const promise = new Promise((resolve, reject) => {
     console.log("Promise Executor");
