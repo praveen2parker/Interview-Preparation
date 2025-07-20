@@ -1,3 +1,4 @@
+import Form from "./components/form"
 import Search from "./components/search"
 
 
@@ -5,8 +6,8 @@ import Search from "./components/search"
 const Home = ()=>{
     return(
         <>
-        <h1>Home</h1>
         {/* <Search/> */}
+        <Form/>
         </>
     )
 }
